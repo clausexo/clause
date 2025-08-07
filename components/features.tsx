@@ -40,10 +40,10 @@ export default function Features() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Why ClauseAI is Powerful and Trustworthy
+              Enterprise-Grade AI That Professionals Trust
             </h2>
             <p className="text-lg text-indigo-200/65">
-              ClauseAI doesn't just search documents—it understands them. Get clear decisions backed by evidence, making complex document analysis instant and trustworthy.
+              ClauseAI goes beyond simple document search—it understands context, evaluates evidence, and delivers precise decisions. Built for professionals who demand accuracy, transparency, and results they can stake their reputation on.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -71,10 +71,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Understand Intent, Not Just Keywords
+                Contextual Intelligence Beyond Keywords
               </h3>
               <p className="text-indigo-200/65">
-                Go beyond simple keyword matching. Our AI understands the context and intent of your query to find the most relevant clauses, even with vague questions.
+                Our advanced AI understands the nuanced intent behind professional queries. Find relevant clauses even when using informal language or complex legal terminology—no need to guess the exact wording.
               </p>
             </article>
             <article>
@@ -91,10 +91,10 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Get Clear Decisions, Not Just Links
+                Definitive Decisions, Not Just Information
               </h3>
               <p className="text-indigo-200/65">
-                ClauseAI doesn't just find information; it evaluates it. Get clear decisions like 'Approved' or 'Rejected' based on the document's internal logic.
+                Get clear, actionable outcomes like 'Approved', 'Requires Review', or 'Denied' based on comprehensive document analysis. Make confident decisions backed by AI reasoning you can trust in high-stakes situations.
               </p>
             </article>
             <article>
@@ -111,10 +111,10 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Every Answer is Backed by Evidence
+                Complete Audit Trail & Evidence Chain
               </h3>
               <p className="text-indigo-200/65">
-                Trust and transparency are built-in. Every decision is mapped back to the exact source clauses from your document, providing a clear and auditable justification.
+                Every decision includes precise source citations with page numbers, clause references, and reasoning chains. Build defensible positions with documentation that meets professional audit and compliance standards.
               </p>
             </article>
           </div>
