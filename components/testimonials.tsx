@@ -159,7 +159,7 @@ export function UseCase({
             </div>
           </div>
         </div>
-        <p className="text-indigo-200/65 text-lg leading-relaxed">
+        <p className="text-indigo-200/65">
           {children}
         </p>
         <div className="pt-2 border-t border-gray-700/50">
