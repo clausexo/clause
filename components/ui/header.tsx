@@ -9,8 +9,52 @@ export default function Header() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="relative flex h-14 items-center justify-between gap-3 rounded-2xl bg-gray-900/90 px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-xs">
           {/* Site branding */}
-          <div className="flex flex-1 items-center">
+          <div className="flex flex-1 items-center gap-6">
             <Logo />
+            <nav className="hidden md:block">
+              <ul className="flex items-center gap-5 text-[13px] font-medium text-indigo-200/70">
+                <li>
+                  <a
+                    href="/#upload"
+                    className="hover:text-indigo-300 transition-colors"
+                  >
+                    Demo
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#how"
+                    className="hover:text-indigo-300 transition-colors"
+                  >
+                    How It Works
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#metrics"
+                    className="hover:text-indigo-300 transition-colors"
+                  >
+                    Results
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#security"
+                    className="hover:text-indigo-300 transition-colors"
+                  >
+                    Security
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#faq"
+                    className="hover:text-indigo-300 transition-colors"
+                  >
+                    FAQ
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
 
           {/* Desktop sign in links */}
